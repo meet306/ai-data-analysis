@@ -18,7 +18,7 @@ import {
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI('AIzaSyAcme-eO5_z0GK7w49YVsKFPfC5PoUS5uw');
+const genAI = new GoogleGenerativeAI('API');
 
 function App() {
   const [data, setData] = useState([]);
